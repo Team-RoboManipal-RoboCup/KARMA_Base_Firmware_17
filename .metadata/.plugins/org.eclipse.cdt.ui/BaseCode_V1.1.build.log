@@ -1,0 +1,10 @@
+22:57:47 **** Incremental Build of configuration Debug for project BaseCode_V1.1 ****
+make -j8 all 
+arm-none-eabi-size  BaseCode_V1.1.elf 
+   text	   data	    bss	    dec	    hex	filename
+  71656	    712	  10824	  83192	  144f8	BaseCode_V1.1.elf
+Finished building: default.size.stdout
+ 
+
+22:57:49 Build Finished. 0 errors, 0 warnings. (took 2s.14ms)
+
