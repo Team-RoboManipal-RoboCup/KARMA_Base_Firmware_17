@@ -1,0 +1,4 @@
+Drivers/bno085.c:11:6:bno085_hw_init	8	static
+Drivers/bno085.c:16:6:bno085_hw_step	48	static
+Drivers/bno085.c:46:6:bno085_hw_get_reading	24	static
+Drivers/bno085.c:52:6:bno085_hw_is_ready	8	static

@@ -1,0 +1,6 @@
+../Core/Src/sport.c:86:20:waitUntilCycle	16	static
+../Core/Src/sport.c:90:6:SPort_Init	16	static
+../Core/Src/sport.c:114:6:SPort_SendPollHeader	40	static,ignoring_inline_asm
+../Core/Src/sport.c:164:6:SPort_ReadByte	48	static,ignoring_inline_asm
+../Core/Src/sport.c:199:6:SPort_PollCurrent	72	static,ignoring_inline_asm
+../Core/Src/sport.c:294:6:SPort_GetDiagString	72	static

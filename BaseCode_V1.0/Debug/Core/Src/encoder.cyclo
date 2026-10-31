@@ -1,0 +1,4 @@
+../Core/Src/encoder.c:15:6:encoder_init	2
+../Core/Src/encoder.c:26:6:encoder_update	2
+../Core/Src/encoder.c:37:9:encoder_get_count	2
+../Core/Src/encoder.c:38:9:encoder_get_delta	2

@@ -1,0 +1,4 @@
+# Eclipse / STM32CubeIDE workspace metadata
+.metadata/
+.recommenders/
+*.lock

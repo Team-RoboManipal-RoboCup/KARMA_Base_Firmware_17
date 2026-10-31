@@ -1,0 +1,8 @@
+../tasks/task_manager.c:61:6:vApplicationGetIdleTaskMemory	1
+../tasks/task_manager.c:70:6:vApplicationGetTimerTaskMemory	1
+../tasks/task_manager.c:80:6:vApplicationStackOverflowHook	1
+../tasks/task_manager.c:89:6:task_manager_notify_jetson_packet_received	1
+../tasks/task_manager.c:94:10:task_manager_get_last_jetson_packet_tick	1
+../tasks/task_manager.c:99:6:task_manager_set_state_snapshot	4
+../tasks/task_manager.c:108:6:task_manager_get_state_snapshot	4
+../tasks/task_manager.c:117:6:task_manager_init	2

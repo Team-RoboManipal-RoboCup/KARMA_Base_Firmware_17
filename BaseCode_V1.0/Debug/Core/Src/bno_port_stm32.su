@@ -1,0 +1,7 @@
+../Core/Src/bno_port_stm32.c:10:6:BNO_Port_Detect	8	static
+../Core/Src/bno_port_stm32.c:32:9:BNO_Port_GetAddress	4	static
+../Core/Src/bno_port_stm32.c:37:23:STM32_BNO_Write	32	static
+../Core/Src/bno_port_stm32.c:55:23:STM32_BNO_Read	32	static
+../Core/Src/bno_port_stm32.c:73:13:STM32_BNO_Delay	16	static
+../Core/Src/bno_port_stm32.c:78:13:STM32_BNO_Reset	4	static
+../Core/Src/bno_port_stm32.c:83:6:BNO_Port_Init	16	static

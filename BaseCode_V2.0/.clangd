@@ -1,0 +1,31 @@
+CompileFlags:
+  CompilationDatabase: .
+  Add:
+    - --target=arm-none-eabi
+    - -mcpu=cortex-m4
+    - -mthumb
+    - -mfloat-abi=hard
+    - -mfpu=fpv4-sp-d16
+    - -DSTM32F411xE
+    - -DUSE_HAL_DRIVER
+    - -DDEBUG
+    - -ICore/Inc
+    - -IDrivers/STM32F4xx_HAL_Driver/Inc
+    - -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy
+    - -IDrivers/CMSIS/Device/ST/STM32F4xx/Include
+    - -IDrivers/CMSIS/Include
+    - -IUSB_DEVICE/App
+    - -IUSB_DEVICE/Target
+    - -IMiddlewares/ST/STM32_USB_Device_Library/Core/Inc
+    - -IMiddlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc
+    - -IThirdParty/FreeRTOS/Source/include
+    - -IThirdParty/FreeRTOS/Source/portable/GCC/ARM_CM4F
+    - -I.
+    - -IDrivers
+    - -Istate_machines
+    - -Itasks
+    - -IThirdParty/SEGGER/Segger
+    - -IThirdParty/SEGGER/Config
+    - -IThirdParty/SEGGER/OS
+  Remove:
+    - -mabi=aapcs

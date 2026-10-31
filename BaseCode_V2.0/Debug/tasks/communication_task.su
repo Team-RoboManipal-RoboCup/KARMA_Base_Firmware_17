@@ -1,0 +1,11 @@
+../tasks/jsmn.h:72:20:jsmn_init	16	static
+../tasks/jsmn.h:78:26:jsmn_alloc_token	32	static
+../tasks/jsmn.h:92:20:jsmn_fill_token	24	static
+../tasks/jsmn.h:100:19:jsmn_parse_primitive	32	static
+../tasks/jsmn.h:142:19:jsmn_parse_string	40	static
+../tasks/jsmn.h:191:19:jsmn_parse	64	static
+../tasks/communication_task.c:20:13:jsoneq	24	static
+../tasks/communication_task.c:29:12:parse_token_int	40	static
+../tasks/communication_task.c:39:13:usb_transmit_safe	16	static
+../tasks/communication_task.c:52:13:process_incoming_command	672	static
+../tasks/communication_task.c:151:6:communication_task_entry	200	static

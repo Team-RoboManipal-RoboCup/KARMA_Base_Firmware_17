@@ -1,0 +1,9 @@
+../Core/Src/robot.c:50:13:parse_json_int	32	static
+../Core/Src/robot.c:66:6:robot_init	72	static
+../Core/Src/robot.c:111:6:robot_set_motor	16	static
+../Core/Src/robot.c:124:6:robot_set_all_motors	24	static
+../Core/Src/robot.c:130:6:robot_stop	16	static
+../Core/Src/robot.c:138:9:robot_get_motor_pwm	16	static
+../Core/Src/robot.c:154:13:parse_command	72	static
+../Core/Src/robot.c:267:6:robot_process_rx	24	static
+../Core/Src/robot.c:285:6:robot_loop	168	static

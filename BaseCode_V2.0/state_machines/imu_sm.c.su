@@ -1,0 +1,11 @@
+state_machines/imu_sm.c:80:13:action_none	4	static
+state_machines/imu_sm.c:85:13:action_do_detect	8	static
+state_machines/imu_sm.c:95:13:action_do_init_driver	16	static
+state_machines/imu_sm.c:108:13:action_do_config_reports	8	static
+state_machines/imu_sm.c:119:13:action_do_run	24	static
+state_machines/imu_sm.c:134:13:action_do_bus_recovery	8	static
+state_machines/imu_sm.c:144:13:action_do_error	4	static
+state_machines/imu_sm.c:149:6:imu_sm_init	8	static
+state_machines/imu_sm.c:155:6:imu_sm_dispatch	24	static
+state_machines/imu_sm.c:171:13:imu_sm_get_state	4	static
+state_machines/imu_sm.c:176:6:imu_sm_is_ready	4	static

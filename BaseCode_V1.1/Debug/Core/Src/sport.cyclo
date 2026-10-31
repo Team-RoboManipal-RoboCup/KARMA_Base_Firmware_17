@@ -1,0 +1,6 @@
+../Core/Src/sport.c:86:20:waitUntilCycle	2
+../Core/Src/sport.c:90:6:SPort_Init	1
+../Core/Src/sport.c:114:6:SPort_SendPollHeader	6
+../Core/Src/sport.c:164:6:SPort_ReadByte	7
+../Core/Src/sport.c:199:6:SPort_PollCurrent	20
+../Core/Src/sport.c:294:6:SPort_GetDiagString	5
