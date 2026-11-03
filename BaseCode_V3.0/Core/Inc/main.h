@@ -49,6 +49,8 @@ extern "C" {
 
 /* USER CODE END EM */
 
+void HAL_TIM_MspPostInit(TIM_HandleTypeDef *htim);
+
 /* Exported functions prototypes ---------------------------------------------*/
 void Error_Handler(void);
 
@@ -57,6 +59,42 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
+#define LED_Pin GPIO_PIN_13
+#define LED_GPIO_Port GPIOC
+#define M1_PWM_Pin GPIO_PIN_0
+#define M1_PWM_GPIO_Port GPIOA
+#define M2_PWM_Pin GPIO_PIN_1
+#define M2_PWM_GPIO_Port GPIOA
+#define M3_PWM_Pin GPIO_PIN_2
+#define M3_PWM_GPIO_Port GPIOA
+#define M4_PWM_Pin GPIO_PIN_3
+#define M4_PWM_GPIO_Port GPIOA
+#define DIR1_Pin GPIO_PIN_4
+#define DIR1_GPIO_Port GPIOA
+#define ENC2_B_Pin GPIO_PIN_7
+#define ENC2_B_GPIO_Port GPIOA
+#define DIR2_Pin GPIO_PIN_0
+#define DIR2_GPIO_Port GPIOB
+#define DIR3_Pin GPIO_PIN_1
+#define DIR3_GPIO_Port GPIOB
+#define DIR4_Pin GPIO_PIN_2
+#define DIR4_GPIO_Port GPIOB
+#define CURRENT_SENS_Pin GPIO_PIN_12
+#define CURRENT_SENS_GPIO_Port GPIOB
+#define ChipSelect2_Pin GPIO_PIN_9
+#define ChipSelect2_GPIO_Port GPIOA
+#define ChipSelect1_Pin GPIO_PIN_10
+#define ChipSelect1_GPIO_Port GPIOA
+#define ENC3_A_Pin GPIO_PIN_15
+#define ENC3_A_GPIO_Port GPIOA
+#define ENC3_B_Pin GPIO_PIN_3
+#define ENC3_B_GPIO_Port GPIOB
+#define ENC2_A_Pin GPIO_PIN_4
+#define ENC2_A_GPIO_Port GPIOB
+#define ENC1_A_Pin GPIO_PIN_6
+#define ENC1_A_GPIO_Port GPIOB
+#define ENC1_B_Pin GPIO_PIN_7
+#define ENC1_B_GPIO_Port GPIOB
 
 /* USER CODE BEGIN Private defines */
 
